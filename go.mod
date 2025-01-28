@@ -1,6 +1,8 @@
 module go.hollow.sh/serverservice
 
-go 1.19
+go 1.22.0
+
+toolchain go1.23.5
 
 require (
 	github.com/XSAM/otelsql v0.23.0 // indirect
@@ -39,7 +41,7 @@ require (
 	go.hollow.sh/toolbox v0.6.1
 	go.infratographer.com/x v0.3.7
 	gocloud.dev v0.33.0
-	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
+	golang.org/x/exp v0.0.0-20250128182459-e0ece0dbea4c
 )
 
 require (

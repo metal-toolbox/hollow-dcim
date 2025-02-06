@@ -11,7 +11,7 @@ services:
       - SERVERSERVICE_TRACING_JAEGER_ENDPOINT=http://jaeger:14268/api/traces
 
   jaeger:
-    image: jaegertracing/all-in-one:1.48.0
+    image: jaegertracing/all-in-one:1.66.0
     ports:
       - "16686:16686" # The UI port
     networks:
